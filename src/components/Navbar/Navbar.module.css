@@ -1,0 +1,20 @@
+.sidebar {
+    background-color: #c8e4e3;
+    padding: 10px;
+    grid-area: n;
+}
+.friends {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.nav {
+    margin-bottom: 10px;
+}
+.item a {
+    color: #566262;
+    text-decoration: none;
+}
+
+.item a.active {
+    color: #548dca;
+}
